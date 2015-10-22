@@ -16,7 +16,8 @@ public class TicketMachine
     // The amount of money entered by a customer so far.
     private int balance;
     // The total amount of money collected by this machine.
-    private int total;
+    private int total;    
+    
 
     /**
      * Create a machine that issues tickets of the given price.
@@ -75,4 +76,10 @@ public class TicketMachine
         // Clear the balance.
         balance = 0;
     }
+    
+    public int getTotal()
+    {
+        return total;
+    }
+    
 }
