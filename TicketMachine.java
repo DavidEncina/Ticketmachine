@@ -90,11 +90,17 @@ public class TicketMachine
         price = precioBillete;
     }
     
+    /**
+     * Imprime que se inserte el dinero exacto.
+     */
     public void promt()
     {
         System.out.println("Please, insert the correct amount of money");
     }
     
+    /**
+     * Imprime el precio del ticket en centimos.
+     */
     public void showPrice ()
     {
         System.out.println("The price of a ticket is " + price + " cents");
