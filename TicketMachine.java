@@ -29,9 +29,19 @@ public class TicketMachine
     {
         price = 800;
         balance = 0;
-        total = 0;
+        total = 0;        
     }
 
+    /**
+     * Crea una maquina que da in billete a un precio dado.
+     */
+    public TicketMachine(int cost)
+    {
+        price = cost;
+        balance = 0;
+        total = 0;        
+    }
+    
     /**
      * Return the price of a ticket.
      */
